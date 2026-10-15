@@ -2,6 +2,10 @@
 
 Uma página simples para descobrir citações, alternar entre o texto original em inglês e uma tradução automática para português, e compartilhar a frase no X.
 
+## Visual
+
+![alt text](img/visual.png)
+
 ## Recursos
 
 - Exibe uma citação aleatória e seu autor.
