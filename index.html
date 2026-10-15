@@ -9,14 +9,21 @@
 <body>
     
 <div class="quote-box">
-    <h2>Quote of the day</h2>
-    <blockquote>Loading...</blockquote>
-    <span>Loading...</span>
+    <h2>Citação do dia</h2>
+    <blockquote id="quote">Carregando...</blockquote>
+    <span id="author">Carregando...</span>
+    <label class="language-control" for="quote-language">
+        Idioma da citação
+        <select id="quote-language">
+            <option value="pt">Português (tradução automática)</option>
+            <option value="en">Inglês (original)</option>
+        </select>
+    </label>
     <div>
-        <button>New Quote</button>
-        <button><img src="twitter.png">Tweet</button>
+        <button id="new-quote" type="button">Nova citação</button>
+        <button id="share-x" type="button"><span class="x-logo" aria-hidden="true">𝕏</span> Compartilhar no X</button>
     </div>
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
